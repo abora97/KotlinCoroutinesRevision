@@ -13,7 +13,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        startActivity(Intent(this,StructuredConcurrencyActivity::class.java))
+        startActivity(Intent(this,ChannelsActivity::class.java))
+        finish()
+//        startActivity(Intent(this,StructuredConcurrencyActivity::class.java))
         myTextView = findViewById(R.id.tvMyText)
 
         Log.d("MainActivity ", "main thread")
