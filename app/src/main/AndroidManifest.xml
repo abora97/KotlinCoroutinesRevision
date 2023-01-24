@@ -12,6 +12,9 @@
         android:theme="@style/Theme.CoroutinesAndFlow"
         tools:targetApi="31">
         <activity
+            android:name=".stateFlow.StateFlowActivity"
+            android:exported="false" />
+        <activity
             android:name=".FlowsActivity"
             android:exported="false" />
         <activity
